@@ -27,6 +27,6 @@
     "inquirer": "^9.2.15"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
+    "@rhyman18:registry": "https://npm.pkg.github.com"
   }
 }
