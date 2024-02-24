@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "description": "Tool for generate 16 & 40 digits keys",
   "main": "App.js",
-  "type": "module",
-  "scripts": {
-    "create-xkey": "node App.js"
+  "bin": {
+    "create-xkey": "./App.js"
   },
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/rhyman18/generate-keys.git"
