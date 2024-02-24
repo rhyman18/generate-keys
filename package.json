@@ -1,0 +1,29 @@
+{
+  "name": "generate-keys",
+  "version": "1.0.0",
+  "description": "Tool for generate 16 & 40 digits keys",
+  "main": "App.js",
+  "type": "module",
+  "scripts": {
+    "create-xkey": "node App.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rhyman18/generate-keys.git"
+  },
+  "keywords": [
+    "keys",
+    "generator",
+    "string",
+    "random"
+  ],
+  "author": "Ari Budiman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rhyman18/generate-keys/issues"
+  },
+  "homepage": "https://github.com/rhyman18/generate-keys#readme",
+  "dependencies": {
+    "inquirer": "^9.2.15"
+  }
+}
