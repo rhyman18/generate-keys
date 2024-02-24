@@ -25,7 +25,7 @@ npm install -g inquirer
 Run command from cli:
 
 ```sh
-npm run create-xkey
+npx create-xkey
 ```
 
 You will be shown to choose between 16 digits or 40 digits, then the keys will be generated.
