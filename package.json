@@ -25,5 +25,8 @@
   "homepage": "https://github.com/rhyman18/generate-keys#readme",
   "dependencies": {
     "inquirer": "^9.2.15"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }
