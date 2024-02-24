@@ -1,6 +1,8 @@
 # generate-keys
 
-Tool for generate 16 &amp; 40 digits keys
+Tool for generate 16 &amp; 40 digits keys.
+
+![Example script](images/generate_keys_example.png)
 
 ## Install
 
@@ -12,7 +14,7 @@ npm install generate-keys
 
 ## Requirements
 
-Make sure [inquirer.js](https://www.npmjs.com/package/inquirer) installed on your node
+Make sure [inquirer.js](https://www.npmjs.com/package/inquirer) installed on your node.
 
 ```sh
 npm install -g inquirer
