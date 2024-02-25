@@ -1,5 +1,5 @@
 {
-  "name": "generate-keys",
+  "name": "@rhyman18/generate-keys",
   "version": "1.0.1",
   "description": "Tool for generate 16 & 40 digits keys",
   "main": "App.js",
