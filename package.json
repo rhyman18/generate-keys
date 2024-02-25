@@ -1,6 +1,6 @@
 {
   "name": "generate-keys",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Tool for generate 16 & 40 digits keys",
   "main": "App.js",
   "bin": {
