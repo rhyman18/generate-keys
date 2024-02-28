@@ -10,14 +10,11 @@ const styles = {
 
 const greaterSign = `${styles.fgGreen}>${styles.reset}`;
 
-const printRandomString = (answers) => {
-  const selectedLength = parseInt(answers.length.match(/\d+/)[0]);
-
+const printRandomString = (length = 40) => {
   console.log("\r");
-
-  if (!isNaN(selectedLength)) {
+  if (!isNaN(length)) {
     console.log(`${greaterSign} Proses generate...`);
-    const randomString = generateRandomString(selectedLength);
+    const randomString = generateRandomString(length);
     console.log(`${greaterSign} Berhasil generate, gass copas mang!\n`);
     console.log(
       styles.bold + styles.fgCyan + randomString + styles.reset + "\n"

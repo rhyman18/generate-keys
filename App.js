@@ -13,5 +13,6 @@ inquirer
     },
   ])
   .then((answers) => {
-    printRandomString(answers);
+    const selectedLength = parseInt(answers.length.match(/\d+/)[0]);
+    printRandomString(selectedLength);
   });

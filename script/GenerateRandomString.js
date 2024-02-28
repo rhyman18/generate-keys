@@ -1,4 +1,4 @@
-const generateRandomString = (length) => {
+const generateRandomString = (length = 40) => {
   const characters =
     "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
   let randomString = "";
