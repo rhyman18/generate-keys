@@ -1,6 +1,6 @@
 {
   "name": "generate-keys",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Tool for generate 16 & 40 digits keys",
   "main": "App.js",
   "bin": {
@@ -9,7 +9,7 @@
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rhyman18/generate-keys.git"
+    "url": "https://github.com/rhyman18/generate-keys.git"
   },
   "keywords": [
     "keys",
