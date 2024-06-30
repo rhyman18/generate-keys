@@ -1,4 +1,4 @@
-const generateRandomString = (length = 40) => {
+const generateRandomString = (length: number = 40): string => {
   const characters =
     "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
   let randomString = "";
@@ -11,4 +11,4 @@ const generateRandomString = (length = 40) => {
   return randomString;
 };
 
-export { generateRandomString };
+export default generateRandomString;
