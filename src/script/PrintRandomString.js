@@ -1,4 +1,4 @@
-import { generateRandomString } from "./GenerateRandomString.js";
+import generateRandomString from "./GenerateRandomString.js";
 
 const styles = {
   reset: "\x1b[0m",

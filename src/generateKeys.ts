@@ -1,6 +1,6 @@
-import { generateRandomString } from "./script/GenerateRandomString.js";
+import generateRandomString from "./script/GenerateRandomString";
 
-const generateKeys = (length = 40) => {
+const generateKeys = (length: number = 40): string => {
   if (!Number.isInteger(length) || length <= 0) {
     return "Invalid length. Please provide a positive integer.";
   } else if (length > 100) {
