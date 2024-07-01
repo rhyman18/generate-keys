@@ -28,6 +28,8 @@ npx generate-keys
 
 You will be shown to choose between 16 digits or 40 digits, then the keys will be generated.
 
+## Dependencies Usage
+
 Used as dependency:
 
 ```sh

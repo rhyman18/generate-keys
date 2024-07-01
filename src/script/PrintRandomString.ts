@@ -1,4 +1,4 @@
-import generateRandomString from "./GenerateRandomString.js";
+import generateRandomString from "./GenerateRandomString";
 
 const styles = {
   reset: "\x1b[0m",
@@ -10,7 +10,7 @@ const styles = {
 
 const greaterSign = `${styles.fgGreen}>${styles.reset}`;
 
-const printRandomString = (length = 40) => {
+const printRandomString = (length: number = 40): void => {
   console.log("\r");
   if (!isNaN(length)) {
     console.log(`${greaterSign} Proses generate...`);
@@ -26,4 +26,4 @@ const printRandomString = (length = 40) => {
   }
 };
 
-export { printRandomString };
+export default printRandomString;

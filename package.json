@@ -1,7 +1,7 @@
 {
   "name": "generate-keys",
-  "version": "1.0.5",
-  "description": "Tool for generate 16 & 40 digits keys",
+  "version": "1.0.6",
+  "description": "This tool is useful for creating random keys for passwords, tokens, or any other application that requires random numeric strings",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
@@ -9,9 +9,8 @@
     "build": "tsup"
   },
   "bin": {
-    "generate-keys": "./src/App.js"
+    "generate-keys": "./dist/App.js"
   },
-  "type": "module",
   "repository": {
     "type": "git",
     "url": "https://github.com/rhyman18/generate-keys.git"
@@ -28,13 +27,11 @@
     "url": "https://github.com/rhyman18/generate-keys/issues"
   },
   "homepage": "https://github.com/rhyman18/generate-keys#readme",
-  "dependencies": {
-    "inquirer": "^9.2.15"
-  },
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
   "devDependencies": {
+    "@inquirer/prompts": "^5.1.0",
     "tsup": "^8.1.0",
     "typescript": "^5.5.2"
   }
