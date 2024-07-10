@@ -15,7 +15,7 @@ This repository contains a utility for generating random 16 or 40-digit keys. Th
 You can get it on npm.
 
 ```sh
-npm i generate-keys
+npm i -g generate-keys
 ```
 
 ## Usage
