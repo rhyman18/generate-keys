@@ -1,6 +1,6 @@
 {
   "name": "generate-keys",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "This tool is useful for creating random keys for passwords, tokens, or any other application that requires random numeric strings",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -31,8 +31,10 @@
     "registry": "https://registry.npmjs.org/"
   },
   "devDependencies": {
-    "@inquirer/prompts": "^5.1.0",
     "tsup": "^8.1.0",
     "typescript": "^5.5.2"
+  },
+  "dependencies": {
+    "@inquirer/prompts": "^5.1.2"
   }
 }
